@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2022-12/schema",
+  "title": "Vehicle Tracking Event", 
+  "description": "Schema for vehicle tracking signals in the freeport",
+  "type": "object",
+  "properties": {
+    "vehicle_id": {
+      "type": "string", 
+      "description": "Unique identifier for the vehicle" 
+    },
+    "vrn": {
+      "type": "string",
+      "descritption": Vehicle registration number"
+    },
+    "location": {
+      "type": "string",
+      "description": Current location of the vehicle"
+    },
+    "time_stamp": {
+      "type": "string",
+      "description": "When the event occured"
+    },
+    "event_type" {
+      "type": "string".
+      "enum": ["entry", "exit", "movement"],
+      "description": "Type of tracking event"
+    },
+
+  }, 
+  "required": ["vehicle_id", "vrn", "location", "timestamp", "event_type
+
+
+}
