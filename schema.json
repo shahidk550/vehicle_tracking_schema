@@ -21,7 +21,7 @@
       "description": "When the event occured"
     },
     "event_type" {
-      "type": "string".
+      "type": "string",
       "enum": ["entry", "exit", "movement"],
       "description": "Type of tracking event"
     },
