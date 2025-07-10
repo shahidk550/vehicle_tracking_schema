@@ -10,11 +10,11 @@
     },
     "vrn": {
       "type": "string",
-      "descritption": Vehicle registration number"
+      "descritption": "Vehicle registration number"
     },
     "location": {
       "type": "string",
-      "description": Current location of the vehicle"
+      "description": "Current location of the vehicle"
     },
     "time_stamp": {
       "type": "string",
@@ -27,7 +27,7 @@
     },
 
   }, 
-  "required": ["vehicle_id", "vrn", "location", "timestamp", "event_type
+  "required": ["vehicle_id", "vrn", "location", "timestamp", "event_type"]
 
 
 }
