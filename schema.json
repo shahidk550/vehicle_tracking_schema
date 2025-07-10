@@ -24,9 +24,9 @@
       "type": "string",
       "enum": ["entry", "exit", "movement"],
       "description": "Type of tracking event"
-    },
+    }
 
-  } 
+  }, 
   "required": ["vehicle_id", "vrn", "location", "times_tamp", "event_type"]
 
 
