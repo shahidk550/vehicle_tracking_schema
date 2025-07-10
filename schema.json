@@ -10,7 +10,7 @@
     },
     "vrn": {
       "type": "string",
-      "descritption": "Vehicle registration number"
+      "description": "Vehicle registration number"
     },
     "location": {
       "type": "string",
@@ -20,14 +20,14 @@
       "type": "string",
       "description": "When the event occured"
     },
-    "event_type" {
+    "event_type": {
       "type": "string",
       "enum": ["entry", "exit", "movement"],
       "description": "Type of tracking event"
     },
 
-  }, 
-  "required": ["vehicle_id", "vrn", "location", "timestamp", "event_type"]
+  } 
+  "required": ["vehicle_id", "vrn", "location", "times_tamp", "event_type"]
 
 
 }
