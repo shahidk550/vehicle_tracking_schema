@@ -16,7 +16,7 @@
       "type": "string",
       "description": "Current location of the vehicle"
     },
-    "time_stamp": {
+    "timestamp": {
       "type": "string",
       "description": "When the event occured"
     },
@@ -27,7 +27,7 @@
     }
 
   }, 
-  "required": ["vehicle_id", "vrn", "location", "time_stamp", "event_type"]
+  "required": ["vehicle_id", "vrn", "location", "timestamp", "event_type"]
 
 
 }
