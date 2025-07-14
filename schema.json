@@ -27,7 +27,7 @@
     }
 
   }, 
-  "required": ["vehicle_id", "vrn", "location", "times_stamp", "event_type"]
+  "required": ["vehicle_id", "vrn", "location", "time_stamp", "event_type"]
 
 
 }
